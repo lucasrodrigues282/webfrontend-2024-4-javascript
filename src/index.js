@@ -30,7 +30,6 @@ else {
 //Calculando o valor por pessoa
 const valorPorPessoa = valorTotal / numeroPessoas;
 
-
 // Exibindo os resultados
 console.log (`numero da mesa: ${numeroMesa}`);
 console.log(`Valor de cada pessoa é:${valorPorPessoa.toFixed(2)}`);
@@ -42,5 +41,3 @@ const permanecer = readline.question ("Calcular outra conta? (sim/não");
 if (permanecer !=="sim") {
     novaMesa = false;
 }
-
-
